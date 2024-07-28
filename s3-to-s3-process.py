@@ -30,4 +30,4 @@ df.write.csv(output_path, mode="overwrite", header=True)
 logger.info("CSV file has been successfully saved to the output path.")
 
 # Stop the Spark session
-spark.stop()
+spark.stop() 
